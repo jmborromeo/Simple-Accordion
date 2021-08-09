@@ -1,0 +1,107 @@
+<style>
+/*** Accordion ***/
+.accordion {
+	background: linear-gradient(to bottom right, white, #F8F8F8);
+	max-width: 800px;
+	background: white;
+	margin: 30px auto 20px;
+  box-shadow: 0 15px 20px -15px rgba(0, 0, 0, 0.3), 0 35px 50px -25px rgba(0, 0, 0, 0.3), 0 85px 60px -25px rgba(0, 0, 0, 0.1);
+}
+.accordion-header {
+	border-bottom: 1px solid #DDE0E7;
+	color: #2a313a;
+	cursor: pointer;
+	font-weight: 700;
+	padding: 1.5rem;
+}
+.accordion-header:hover {
+	background: #F6F7F9;
+}
+.accordion-content {
+	display: none;
+	border-bottom: 1px solid #DDE0E7;
+	background: #F6F7F9;
+	padding: 1.5rem;
+	color: #4a5666;
+}
+.accordion-header::before {
+	content: '';
+	vertical-align: middle;
+	display: inline-block;
+	width: .75rem;
+	height: .75rem;
+	border-radius: 50%;
+	background-color: #B1B5BE;
+	margin-right: .75rem;
+}
+.active.accordion-header::before {
+	background-color: #FC943F;
+}
+</style>
+
+<script>
+jQuery(document).ready(function($) {
+ $(".accordion").on("click", ".accordion-header", function() {
+    $(this).toggleClass("active").next().slideToggle();
+ });
+});
+</script>
+
+<div class="accordion">
+<div class="accordion-header">Question: Is the purchase of HDB Mortgage Insurance compulsory?</div>
+<div class="accordion-content">HDB Mortgage Insurance, also commonly know as the Home Protection Scheme (HPS) is a compulsory purchase for a HDB flat if you are using CPF monies for the HDB flat. A wavier will be granted if you have alternative mortgage insurance coverage provided by private insurancers. Mortgage Insurance coverage for private property mortgages are not compulsory but offers protection for you and your love ones in the event of unfortunate events. For prudent financial planning, adequate mortgage insurance planning is always recommended.</div>
+<div class="accordion-header">Question: Can CPF monies be used to pay for stamp duty when purchasing a property / EC property?</div>
+<div class="accordion-content">Yes, absolutely. Your stamp duty is payable within 14 days upon exercising your Option to purchase or Sale and Purchase Agreement. While it may take a while for CPF Board to release your money to pay for your stamp duty, to avoid any late penalty charges, you may need to pay your stamp duty by cash first while your CPF money is release and reimbursed back to you.
+
+Your CPF monies may also be used for your lump sum down payment, legal costs and mortgage stamping charges and subsequently monthly mortgage repayments.
+
+</div>
+<div class="accordion-header">Question: I have a private property that is fully paid up, how much can i remortgage it for a loan?</div>
+<div class="accordion-content">Let's use a real life example. Assuming your property is worth $1 million.
+
+Depending on the financing quantum allowed by different banks, the maximum allowed by government regulation is up to 80% for your first property and up to 60% for your second and subsequent properties.
+
+Assume that the bank allows up to a 60% Loan to Value (LTV) financing quantum, and you have used about $150,000 of your CPF money, then the draft numbers will work out to be as follows:
+Valuation = $1,000,000
+60% LTV = $600,000
+CPF Used = $150,000
+Nett amount allowed for cash out term loan = $450,000
+
+The maximum amount of loan allowed to cash out for your private property is about $450,000 subject to the bank’s approval. The above is an illustration for the computation of your cash out term loan amount. Different banks may have different approving loan quantum.
+
+</div>
+<div class="accordion-header">Question: What is the maximum quantum of financing (Loan to Value LTV) ratio I can get if i do not have any other outstanding mortgage loans?</div>
+<div class="accordion-content">The current maximum limit allowed by MAS is up to 80% financing if you do not own any other mortgage loans. This limit is equally applicable for cash out term loan, subject to each individual bank credit approving criterial and limits.</div>
+<div class="accordion-header">Question: My HDB property is fully paid up. Can i remortgage/refinance my HDB flat back to the banks for a loan?</div>
+<div class="accordion-content">Nope. Government rulings prohibit the remortgaging/refinancing of your fully-paid HDB flat for any additional new cash out loans.</div>
+<div class="accordion-header">Question: What is the Progressive Structure of a Building under Construction Project and how much interest do i have to pay?</div>
+<div class="accordion-content">The progressive structure of a building under construction property (BUC) is broken into  8 stages of 10% 10% 5% 5% 5% 5% 25% (TOP) 15% (CSC).
+<ul>
+ 	<li>CSC stands for Certificate of Statutory Completion</li>
+ 	<li>TOP stands for Temporary Occupancy Permit</li>
+</ul>
+Only interest is payable on the loan amount that has been disbursed. Your interest will be computed based on reducing balance. For a start, due to the small disbursed loan amount, you will probably be paying only a couple of hundred dollars for your mortgage but do note that your monthly repayment steps up when more of the principal loan is disbursed subsequently.
+
+For an accurate planning on your finances, you should always assess your financial affordability based on repayment for the full loan amount on a higher interest rate tier of maybe say 2% -3%.
+
+</div>
+<div class="accordion-header">Question: I am intending to start to start a business and would like to borrow about $200,000 from the banks, which banks do you suggest I approach for my business lending.</div>
+<div class="accordion-content">Banks and financial institutions generally do not currently offer business loans for starting a new business. Banks typically require your business to be in operation for at least &gt;6mths for any considerations.
+
+If you have a collateral like a property, banks will be more favourable to offer you financing facilities secured against the collateral of your property.
+
+If your business had been in operation for a short while but now requires liquidity to purchase new raw material, obtaining trade finance facilities to finance the purchase of your raw materials may be a consideration.
+
+If you have secured a few invoices while awaiting payments, banks may be able to offer you invoice factoring to improve your cash flow and allows you to quickly turn around your receivables and put your money back into your business.
+
+If you are considering purchasing new machinery and equipments, a hire-purchase machinery &amp; equipment loan may be more suitable. Given that machinery and equipment financing are a form of secured lending, you will be able to secure financing at a much lower interest rate cost as compared to an unsecured business term loan facility.
+
+If you are a micro / small / medium enterprise with less than 10 CPF employees and would like to seek a small business funding of not more than $100,000, a micro loan facility may be suitable for you and your business.
+
+If you’re seeking new business start-up funding, you may wish to consider approaching angels and venture capital companies.
+Alternatively, small finance houses and licensed money lenders may provide alternative financing solutions to meet your needs and objectives. Do note that lending cost may be higher as compared to banks and financial institutions.
+
+</div>
+<div class="accordion-header">Question: What is the maximum loan tenure applicable for home loan financing in Singapore?</div>
+<div class="accordion-content">The maximum loan tenure applicable is up to age 75. Lower financing quatum applies for loan tenure exceeding 30yrs or up to age 65. For more information regarding the loan to value ratio limits, visit:</div>
+</div>
